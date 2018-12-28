@@ -1,0 +1,269 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+}
+body{
+    background-image: url("body.png");
+    margin: 0;
+}
+a{
+    color: #999;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    width: 80%;
+    margin-top: 7px;
+    margin-left: 10%;
+}
+.header{
+    width: 100%;
+}
+.header .top{
+    background-color: #111;
+}
+.header .top .navbarHeader{
+    padding-left: 10%;
+    display: inline-block;
+}
+.header .top .navbarHeader ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header .top .navbarHeader ul li{
+    display: inline-block;
+}
+.header .top .navbarHeader ul li a{
+    display: block;
+    padding: 10px;
+}
+.header .navbar{
+    background-color: #111;
+    width: 80%;
+    margin-left: 10%;
+}
+.header .navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header .navbar ul li{
+    display: inline-block;
+    float: left;
+}
+.header .navbar ul li a{
+    display: block;
+    padding: 15px;
+}
+.header .navbar ul li:hover{
+    background-color: #000;
+}
+.header .navbar ul li input,
+.commentsList ul li input{
+    border: 0;
+    padding: 16px;
+    background-color: #000;
+}
+.header .navbar ul li input[type="submit"]{
+    background-color: #111;
+}
+.middle{
+    width: 80%;
+    margin-left: 10%;
+}
+.content{
+    height: auto;
+    margin-top: 10px;
+    width: 80%;
+    display: inline-block;
+    float: left;
+}
+.content .panel{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #111;
+}
+.content .panel .head{
+    background-color: #222;
+    margin-top: 5px;
+}
+.content .panel .head ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.content .panel .head ul li{
+    display: inline-block;
+}
+.content .panel .head ul li a{
+    display: block;
+    padding: 10px;
+}
+.content .panel .itemPanel{
+    width: 100%;
+    min-height: 410px;
+    max-height: 2050px;
+    margin-top: 5px;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-flow: wrap;
+}
+.content .panel .item{
+    min-height: 410px;
+    background-color: #222;
+    width: 32%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.content .panel .pages{
+    margin-top: 5px;
+    background-color: #111;
+    height: 40px;
+    width: 100%;
+}
+.content .panel .pages a {
+    padding: 8px 16px;
+    display: inline-block;
+}
+.content .panel .pages a.active {
+    background-color: #222;
+}
+
+.content .panel .pages a:hover:not(.active) {
+    background-color: #111;
+    
+}
+.right{
+    float: right;
+    margin-top: 10px;
+    display: inline-block;
+    width: 18%;
+    margin-left:20px;
+}
+.right .item{
+    margin-bottom: 10px;
+    background-color: #111;
+}
+.right .item .head{
+    padding: 10px;
+    background-color: #000;
+}
+.right .item ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.right .item ul li{
+    display: inline-block;
+    width: 48.8%;
+}
+.right .item ul li:hover{
+    background-color: #000;
+}
+.right .item ul li a{
+    display: block;
+    padding: 10px;
+}
+.footer {
+    float: left;
+}
+.content .panel .item .itemImg{
+    width: 100%;
+}
+.content .panel .item p{
+    font-size: 12px;
+    margin: 5px;
+}
+.content .panel .item p:last-child{
+    font-size: 15px;
+    margin: 5px;
+}
+.detailContent{
+    height: 300px;
+    background-color: #222;
+}
+.detailContent div:first-child{
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+.detailContent div:first-child img{
+    height: 100%;
+}
+.detailContent div:last-child{
+    float: left;
+    display: inline-block;
+    width: 65%;
+}
+.detailContent div:last-child div{
+    display: block;
+    float:unset;
+}
+.detailContent div:last-child div:last-child{
+    margin-left: 0;
+}
+.detailContent div:last-child p{
+    background-color: #222;
+}
+.detail div:first-child p label{
+    float: right;
+}
+.detail div:last-child p label{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.detail p{
+    padding: 1%;
+    background-color: #000;
+}
+.commentInputs{
+    height: auto;
+    margin-bottom: 10px;
+}
+.commentInputs textarea{
+    width: 80%;
+    min-height: 50px;
+    border: 0;
+    padding: 16px;
+    background-color: #000;
+    margin-right: 1%;
+}
+.commentInputs input[type="submit"]{
+    width: 19%;
+    float: right;
+    height: 62px;
+    border: 0;
+    padding: 16px;
+    background-color: #000;
+}
+.commentsList ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.commentsList ul li{
+    margin-bottom: 5px;
+    background-color: #222;
+    padding: 5px;
+}
+.commentsList ul li ol{
+    margin-top: 15px;
+}
+.commentsList ul li p{
+    margin: 0;
+}
+.commentsList ul li p:first-child{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
